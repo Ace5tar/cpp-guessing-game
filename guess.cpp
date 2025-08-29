@@ -1,4 +1,13 @@
-// https://www.geeksforgeeks.org/cpp/rand-and-srand-in-ccpp/
+/*
+Belle Biery
+8/24/25
+Generates a number between 1 and 100 and then has the user guess until they guess right
+https://www.geeksforgeeks.org/cpp/rand-and-srand-in-ccpp/
+
+1) No global variables
+2) No strings, only cstrings and char arrays
+3) Include <iostream>, not stdio & use "new" and "delete" instead of "malloc" and "free"
+*/
 
 #include <iostream>
 
